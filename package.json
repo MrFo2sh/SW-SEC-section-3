@@ -1,0 +1,14 @@
+{
+  "name": "acme-press-recon-lab",
+  "version": "1.0.0",
+  "description": "Deliberately mappable Node.js web app for teaching web recon: crawling (linked surface) vs ffuf fuzzing (hidden surface). Zero runtime dependencies.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT",
+  "private": true
+}
