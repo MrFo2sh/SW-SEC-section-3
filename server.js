@@ -401,8 +401,6 @@ const server = http.createServer((req, res) => {
   return notFound(res);
 });
 
-server.listen(
-  PORT,
-  () => console.log(`ACME Press recon lab: http://0.0.0.0:${PORT}`),
-  "0.0.0.0",
+server.listen(PORT, "0.0.0.0", () =>
+  console.log(`ACME Press recon lab: http://0.0.0.0:${PORT}`),
 );
